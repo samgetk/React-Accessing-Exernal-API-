@@ -7,10 +7,10 @@ function App() {
   const [userData, setUserData] = useState({});
 
   useEffect(() => {
-    getGitHubUserWithFetch();
+    getUserWithFetch();
   }, []);
 
-  const getGitHubUserWithFetch = async () => {};
+  const getUserWithFetch = async () => {};
 
   return (
     <div className="App">
